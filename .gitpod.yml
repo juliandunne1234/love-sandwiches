@@ -5,7 +5,7 @@ tasks:
    command: /home/gitpod/.pg_ctl/bin/pg_start > /dev/null
  - command: . ${GITPOD_REPO_ROOT}/.vscode/uptime.sh &
 vscode:
-  extensions:
+  extensions: 
     - ms-python.python
     - formulahendry.auto-close-tag
     - eventyret.bootstrap-4-cdn-snippet
